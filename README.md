@@ -13,21 +13,21 @@
 
 1. Install Yeoman:
 
-```bash
-$ npm install -g yo
-```
+    ```bash
+    npm install -g yo
+    ```
 
 2. Install the generator and its siblings:
 
-```bash
-$ npm install -g generator-angular-pouchdb generator-common
-```
+    ```bash
+    npm install -g generator-angular-pouchdb generator-common
+    ```
 
 3. Finally, initiate the generator:
 
-```bash
-$ yo angular-pouchdb <directiveName>
-```
+    ```bash
+    yo angular-pouchdb <directiveName>
+    ```
 
 ## Author
 
