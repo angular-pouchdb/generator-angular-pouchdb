@@ -1,0 +1,20 @@
+{
+  "name": "<%= names.slug %>",
+  "version": "0.1.0",
+  "description": "An AngularJS directive for PouchDB",
+  "main": "<%= names.slug %>.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start",
+    "watch": "./node_modules/karma/bin/karma start --autoWatch true --singleRun false"
+  },
+  "keywords": [
+    "angular-pouchdb-directive"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.12.17",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "wiredep": "^1.8.2"
+  }
+}
